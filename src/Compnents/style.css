@@ -1,0 +1,139 @@
+.span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-family: 'blunt';
+   color: black;
+   outline: 50px;
+   border-bottom: 1px solid #ccc ;
+   @media screen and (max-width: 1200px;) and (min-width: 480px;){
+    background-color: white
+}
+   
+}
+
+
+
+input[type="text"]{
+    position: fixed;
+    left: 78%;
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+}
+
+
+input[type="color"]{
+   position:fixed;
+    left: 87%;
+    border-color: black;
+    background: none;
+    height: 30px;
+    width: 7%;
+    margin: 0 auto;
+    border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;      
+  @media screen and (max-width: 1200px;) and (min-width: 480px;){
+    background-color: white
+}
+}
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 3px;
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+}
+.Show{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+}
+.Start{
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    background-color: white;
+    width: 50%;
+    height: 55%;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+}
+
+.backdrop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 100;
+    background: rgba(0,0,0,0.75);
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+}
+
+.Change-Theme{
+   color: blue;
+   position: absolute;
+   left: 80%;
+   bottom: 85%;
+   font-size: 12px;
+   @media screen and (max-width: 1200px;) and (min-width: 480px;){
+    background-color: white
+}
+}
+.Cancel{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border:solid #ccc;
+    height: 30px;
+    width: 60px;
+    align-items: center;
+    border-radius: 4px ;
+    left: 75%;
+    bottom: 3%;
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+    }
+.Save{
+    position: absolute;
+    background-color:#2072EF;
+    color: white;
+    border: transparent;
+    height: 30px;
+    width: 60px;
+    left: 87%;
+    border-radius: 4px;
+    align-items: center;
+    bottom: 3%;
+    @media screen and (max-width: 1200px;) and (min-width: 480px;){
+        background-color: white
+    }
+}
+@media(max-width:755px){
+    .Start{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .Start{
+        width: 100%;
+    }
+}
